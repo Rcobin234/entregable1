@@ -34,11 +34,17 @@
 .card__btn {
     display: block;
     margin-left: auto;
-    width: 60px;
-    height: 30px;
+    width: 45px;
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    aspect-ratio: 1;
+    border-radius: 50px;
 }
 
+.card__icon {
+  font-size: 40px;
+  float: left;
+  padding-right: 10px;  
+}
 
