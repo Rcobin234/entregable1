@@ -1,0 +1,44 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card {
+    background-color: aliceblue;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    
+}
+
+.card__quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card__author {
+    text-align: end;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.card__btn {
+    display: block;
+    margin-left: auto;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
